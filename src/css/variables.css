@@ -1,0 +1,8 @@
+:root {
+    --background-color-main: hsl(217, 54%, 11%);
+    --background-color-card: hsl(216, 50%, 16%);
+    --background-color-hr: hsl(215, 32%, 27%);
+    --nft-color: hsl(0, 0%, 100%);
+    --nft-cyan: hsl(178, 100%, 50%);
+    --nft-soft-blue: hsl(215, 51%, 70%);
+}

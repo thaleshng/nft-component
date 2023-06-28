@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    background-color: var(--background-color-main);
+}
+
+main {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    max-width: 300px;
+    background-color: var(--background-color-card);
+    gap: 18px;
+    padding: 20px ;
+}
+
+.container .nft-image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container .nft-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.container .nft-image::before {
+    content: '';
+    background-color: cyan;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .nft-image::after {
+    content: '';
+    background: url(../images/icon-view.svg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container .nft-image:hover::before {
+    opacity: 0.4;
+}
+
+.container .nft-image:hover::after {
+    opacity: 1;
+}
+
+.container .titulo-nft {
+    font-size: 18px;
+    color: var(--nft-color);
+    font-weight: 600;
+}
+
+.container .titulo-nft:hover{
+    color: var(--nft-cyan);
+}
+
+.container .descricao {
+    color: var(--nft-soft-blue);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.container .infos {
+    display: flex;
+    justify-content: space-between;
+}
+.container .preco {
+    display: flex;
+    align-self: center;
+}
+
+.container .preco span{
+    font-size: 14px;
+    color: var(--nft-cyan);
+    margin-left: 5px;
+}
+
+.container .days-left {
+    display: flex;
+    align-self: center;
+}
+
+.container .days-left span{
+    font-size: 14px;
+    color: var(--nft-soft-blue);
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.container hr {
+    width: 260px;
+    border-color: var(--background-color-hr);
+    align-self: center;
+}
+.container .criador {
+    display: flex;
+}
+
+.container .criador img {
+    width: 32px;
+    height: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.container .criador span {
+    align-self: center;
+    margin-left: 15px;
+    color: var(--nft-soft-blue);
+    font-size: 14px;
+}
+
+.container .criador span a {
+    color: var(--nft-color);
+    font-weight: 300;
+}
+
+.container .criador span a:hover {
+    color: var(--nft-cyan);
+}
