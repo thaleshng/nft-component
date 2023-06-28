@@ -21,7 +21,7 @@ main {
     max-width: 300px;
     background-color: var(--background-color-card);
     gap: 18px;
-    padding: 20px ;
+    padding: 20px;
 }
 
 .container .nft-image {
