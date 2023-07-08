@@ -11,7 +11,7 @@
 
 <div align="center">
     <h3 align="center"><strong>Mobile View</strong><h3>
-    <a href="https://thaleshng.github.io/exercicio-menu-com-flexbox/" target="_blank"><img src="./src/images/Mobile.png" target="_blank"></a> 
+    <a href="https://thaleshng.github.io/nft-component/" target="_blank"><img src="./src/images/Mobile.png" target="_blank"></a> 
 </div>
 
 <div align="center">
